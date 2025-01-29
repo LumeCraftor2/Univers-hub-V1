@@ -1,0 +1,6 @@
+local Games = {
+  [18901165922] = "", -- Bee Master Simulator
+  [16732694052] = "", -- fish Training
+}
+
+return Games
