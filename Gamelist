@@ -1,5 +1,5 @@
 local Games = {
-  [18901165922] = "", -- Bee Master Simulator
+  [18901165922] = "https://raw.githubusercontent.com/LumeCraftor2/Univers-hub-V1/refs/heads/main/BeeMasterSimulator", -- Bee Master Simulator
   [16732694052] = "", -- fish Training
 }
 
