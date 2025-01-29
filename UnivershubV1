@@ -1,4 +1,4 @@
-local Games = loadstring(game:HttpGet(""))()
+local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/LumeCraftor2/Univers-hub-V1/refs/heads/main/Gamelist"))()
 
 for PlaceID, Execute in pairs(Games) do
     if PlaceID == game.PlaceId then
