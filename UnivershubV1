@@ -1,7 +1,8 @@
-local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/LumeCraftor2/Univers-hub-V1/refs/heads/main/Gamelist"))()
+local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/LumeCraftor2/Univers-hub-V1/main/Gamelist"))()
 
-for PlaceID, Execute in pairs(Games) do
+for PlaceID, URL in pairs(Games) do
     if PlaceID == game.PlaceId then
-        loadstring(game:HttpGet(Execute))()
+        local ScriptContent = game:HttpGet(URL)
+        loadstring(ScriptContent)() -- Execute the script
     end
 end
